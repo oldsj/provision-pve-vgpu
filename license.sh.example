@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# see this for vGPU license info
+# https://gitlab.com/polloloco/vgpu-proxmox/-/issues/13#note_1154015256"
+
+# see this for removing the proxmox subscription popup
+# https://johnscs.com/remove-proxmox51-subscription-notice/
