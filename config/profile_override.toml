@@ -1,0 +1,5 @@
+[profile.nvidia-259]
+
+# RTX/6000 
+pci_device_id = 0x1E30
+pci_id = 0x1E3012BA
