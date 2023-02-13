@@ -1,5 +1,16 @@
+# RTX/6000 -4Q default settings
 [profile.nvidia-259]
+# single 1440p output
+num_displays = 1
+display_width = 2560
+display_height = 1440
+max_pixels = 3686400
 
-# RTX/6000 
+# windows gaming VM
+[vm.100]
+# spoof gpu for native driver support
 pci_device_id = 0x1E30
 pci_id = 0x1E3012BA
+# 8gb
+framebuffer = 0x1DC000000
+framebuffer_reservation = 0x24000000
